@@ -1,0 +1,8 @@
+spring:
+  profiles:
+#    active: single-dac
+    active: flex-dac
+  #
+  sql:
+    init:
+      mode: always

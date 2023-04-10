@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: ${your_jdbc_url}
+#   username here is different from flexible server configuration, it need `@${postgre_name}`
+    username: ${your_user_name}@${postgre_name}
+    azure:
+      passwordlessEnabled: true
+
+  #
+  sql:
+    init:
+      mode: always

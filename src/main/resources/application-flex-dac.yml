@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: ${your_jdbc_url}
+    username: ${your_user_name}
+    azure:
+      passwordlessEnabled: true
+  #
+  sql:
+    init:
+      mode: always
+
